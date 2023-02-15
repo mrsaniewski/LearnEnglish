@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: #1E90FF;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.angol.HelloController">
+   <children>
+      <Button fx:id="playButton" layoutX="150.0" layoutY="550.0" mnemonicParsing="false" onAction="#onPlayMovie" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: green; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="PLAY">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="350.0" layoutY="550.0" mnemonicParsing="false" onAction="#onPauseMovie" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: yellow; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="PAUSE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="550.0" layoutY="550.0" mnemonicParsing="false" onAction="#onResetMovie" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: red; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="RESET">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <MediaView fx:id="movieView" fitHeight="600.0" fitWidth="600.0" layoutX="100.0" />
+      <Button fx:id="bckTutorialToH" layoutX="550.0" layoutY="640.0" mnemonicParsing="false" onAction="#onBackTutorial" prefHeight="32.0" prefWidth="100.0" style="-fx-background-color: indianred; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Wstecz">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

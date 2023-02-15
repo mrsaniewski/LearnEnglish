@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="731.0" prefWidth="774.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.angol.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Label prefHeight="183.0" prefWidth="624.0" text="ANGIELSKI W PRZEDSZKOLU" textAlignment="CENTER">
+        <font>
+            <Font size="48.0" />
+        </font>
+    </Label>
+    <Button fx:id="btn1" onAction="#onHelloButtonClick" prefHeight="118.0" prefWidth="347.0" text="Zaczynajmy !">
+        <font>
+            <Font size="24.0" />
+        </font></Button>
+
+    <Label fx:id="welcomeText" prefHeight="18.0" prefWidth="110.0" />
+    <Label fx:id="welcomeText2">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+   <ImageView fitHeight="263.0" fitWidth="595.0" pickOnBounds="true" preserveRatio="true" />
+</VBox>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.angol.LiczbyController2">
+    <children>
+        <Button fx:id="btntestkolory" layoutX="477.0" layoutY="342.0" mnemonicParsing="false" onAction="#ButtonTestKolory" text="Przejdź do testu" />
+        <Button fx:id="btnbackkolory" layoutX="488.0" layoutY="25.0" mnemonicParsing="false" onAction="#ButtonBackKolory" text="Wstecz" />
+        <Label layoutX="115.0" layoutY="42.0" prefHeight="296.0" prefWidth="263.0" text="RED - CZERWONY&#10;&#10;&#10;&#10;BLACK - CZARNY&#10;&#10;&#10;&#10;WHITE - BIAŁY &#10;&#10;&#10;&#10;BLUE - NIEBIESKI&#10;" />
+        <ImageView fx:id="redView" fitHeight="70.0" fitWidth="70.0" layoutX="30.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../resources/imgs/red.jpg" />
+            </image></ImageView>
+        <ImageView fx:id="blackView" fitHeight="70.0" fitWidth="70.0" layoutX="30.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../resources/imgs/black.jpg" />
+            </image></ImageView>
+        <ImageView fx:id="whiteView" fitHeight="70.0" fitWidth="70.0" layoutX="30.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../resources/imgs/white.jpg" />
+            </image></ImageView>
+        <ImageView fx:id="blueView" fitHeight="70.0" fitWidth="70.0" layoutX="30.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../../../resources/imgs/blue.jpg" />
+            </image></ImageView>
+        <MediaView fitHeight="200.0" fitWidth="200.0" layoutX="300.0" layoutY="60.0" />
+    </children>
+</AnchorPane>

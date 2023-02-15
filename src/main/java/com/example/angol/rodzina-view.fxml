@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="700.0" style="-fx-background-color: #f0caf8;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.angol.LiczbyController">
+   <children>
+      <Button fx:id="btnbackrodziny" layoutX="536.0" layoutY="38.0" mnemonicParsing="false" onAction="#ButtonBackRodziny" prefHeight="29.0" prefWidth="115.0" style="-fx-background-color: indianred; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Wstecz" />
+      <Label layoutX="544.0" layoutY="198.0" prefHeight="479.0" prefWidth="226.0" text="&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button layoutX="456.0" layoutY="198.0" mnemonicParsing="false" onAction="#onMotherSound" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #d900ff; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Mother Sound" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="456.0" layoutY="253.0" mnemonicParsing="false" onAction="#onFatherSound" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #d900ff; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Father Sound" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="456.0" layoutY="308.0" mnemonicParsing="false" onAction="#onSisterSound" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #d900ff; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Sister Sound" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="456.0" layoutY="368.0" mnemonicParsing="false" onAction="#onBrotherSound" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #d900ff; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Brother Sound" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="456.0" layoutY="431.0" mnemonicParsing="false" onAction="#onGrandmotherSound" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #d900ff; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Grandmother Sound" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="456.0" layoutY="486.0" mnemonicParsing="false" onAction="#onGrandfatherSound" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #d900ff; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Grandfather Sound" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="456.0" layoutY="556.0" mnemonicParsing="false" onAction="#onAuntSound" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #d900ff; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Aunt Sound" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <Button layoutX="456.0" layoutY="618.0" mnemonicParsing="false" onAction="#onUncleSound" prefHeight="20.0" prefWidth="160.0" style="-fx-background-color: #d900ff; -fx-border-color: black; -fx-border-width: 2; -fx-border-radius: 7; -fx-background-radius: 7;" text="Uncle Sound" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS Bold" size="14.0" />
+         </font></Button>
+      <ImageView fitHeight="162.0" fitWidth="458.0" layoutX="85.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../src/main/java/com/example/angol/jpg/stick-people.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="41.0" layoutX="517.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../src/main/java/com/example/angol/jpg/glosnik.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="155.0" layoutY="203.0" text="MOTHER - MAMA">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="258.0" text="FATHER - TATA">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="313.0" text="SISTER - SIOSTRA">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="373.0" text="BROTHER - BRAT">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="436.0" text="GRANDMOTHER - BABCIA">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="491.0" text="GRANDFATHER - DZIADEK">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="561.0" text="AUNT - CIOCIA">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="155.0" layoutY="623.0" text="UNCLE - WUJEK ">
+         <font>
+            <Font name="Comic Sans MS Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
